@@ -1,3 +1,8 @@
+@font-face {
+  font-family: sf-pro-display;
+  src: url(sf-pro-display/SFPRODISPLAYREGULAR.OTF);
+}
+
 .background-container {
     position: absolute;
     top: 0;
@@ -10,5 +15,30 @@
   body{
     padding: 0%;
     margin: 0%;
+    font-family: sf-pro-display;
   }
   
+  li{
+    list-style-type: none;
+  
+  }
+
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .navbar{
+    
+  }
+
+
+/* Nav Bar - - - - -  - - - --  --  --  - ---  --  */
